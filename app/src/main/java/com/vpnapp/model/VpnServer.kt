@@ -1,6 +1,7 @@
 package com.vpnapp.model
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class VpnServer(
     @SerializedName("id") val id: String,
@@ -9,12 +10,12 @@ data class VpnServer(
     @SerializedName("flag") val flag: String,
     @SerializedName("host") val host: String,
     @SerializedName("port") val port: Int,
-    @SerializedName("protocol") val protocol: String, // "wireguard", "openvpn", "proxy"
-    @SerializedName("config") val config: String,     // base64-encoded config
+    @SerializedName("protocol") val protocol: String,
+    @SerializedName("config") val config: String,
     @SerializedName("ping") var ping: Int = -1,
-    @SerializedName("load") val load: Int = 0,        // server load %
+    @SerializedName("load") val load: Int = 0,
     var isSelected: Boolean = false
-)
+) : Serializable
 
 data class SubscriptionConfig(
     @SerializedName("version") val version: Int,
