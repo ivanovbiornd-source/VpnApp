@@ -22,15 +22,15 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Install Gradle
         run: |
           wget -q https://services.gradle.org/distributions/gradle-8.0-bin.zip
           unzip -q gradle-8.0-bin.zip
           sudo mv gradle-8.0 /opt/gradle
           echo "/opt/gradle/bin" >> $GITHUB_PATH
-
-      - name: Show project structure
-        run: ls -la && ls -la app/ || echo "no app dir"
 
       - name: Build Debug APK
         run: gradle :app:assembleDebug --stacktrace --no-daemon
