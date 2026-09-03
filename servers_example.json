@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-03T12:00:00Z",
+  "subscription_url": "https://your-server.com/api/servers.json",
+  "servers": [
+    {
+      "id": "nl-01",
+      "name": "Amsterdam #1",
+      "country": "Нидерланды",
+      "flag": "🇳🇱",
+      "host": "nl1.vpnshield.example.com",
+      "port": 51820,
+      "protocol": "wireguard",
+      "config": "BASE64_ENCODED_WIREGUARD_CONFIG_HERE",
+      "load": 23
+    },
+    {
+      "id": "de-01",
+      "name": "Frankfurt #1",
+      "country": "Германия",
+      "flag": "🇩🇪",
+      "host": "de1.vpnshield.example.com",
+      "port": 51820,
+      "protocol": "wireguard",
+      "config": "BASE64_ENCODED_WIREGUARD_CONFIG_HERE",
+      "load": 45
+    },
+    {
+      "id": "fi-01",
+      "name": "Helsinki #1",
+      "country": "Финляндия",
+      "flag": "🇫🇮",
+      "host": "fi1.vpnshield.example.com",
+      "port": 1194,
+      "protocol": "openvpn",
+      "config": "BASE64_ENCODED_OPENVPN_CONFIG_HERE",
+      "load": 12
+    },
+    {
+      "id": "us-01",
+      "name": "New York #1",
+      "country": "США",
+      "flag": "🇺🇸",
+      "host": "us1.vpnshield.example.com",
+      "port": 51820,
+      "protocol": "wireguard",
+      "config": "BASE64_ENCODED_WIREGUARD_CONFIG_HERE",
+      "load": 67
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+rootProject.name = "VpnApp"
+include ':app'

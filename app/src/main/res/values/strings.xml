@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VPN Shield</string>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="connecting">Подключение…</string>
+    <string name="disconnected">Отключено</string>
+    <string name="connected">Подключено</string>
+    <string name="settings">Настройки</string>
+    <string name="servers">Серверы</string>
+    <string name="subscription_url">URL подписки</string>
+    <string name="timer_enabled">Таймер включения</string>
+    <string name="gps_auto">Авто по GPS</string>
+    <string name="save_home">Запомнить дом</string>
+    <string name="save">Сохранить</string>
+    <string name="update_servers">Обновить серверы</string>
+</resources>

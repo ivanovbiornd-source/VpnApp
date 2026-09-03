@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="bg_dark">#0F1117</color>
+    <color name="bg_surface">#1A1D27</color>
+    <color name="bg_card">#22263A</color>
+
+    <!-- Accent -->
+    <color name="accent">#6C63FF</color>
+    <color name="accent_alpha">#336C63FF</color>
+    <color name="accent_light">#8B84FF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9E9EB5</color>
+
+    <!-- VPN States -->
+    <color name="btn_disconnected">#3A3D5C</color>
+    <color name="btn_connecting">#B58A00</color>
+    <color name="btn_connected">#1A8C4E</color>
+    <color name="btn_error">#C0392B</color>
+
+    <color name="ring_disconnected">#336C63FF</color>
+    <color name="ring_connected">#331A8C4E</color>
+
+    <!-- System -->
+    <color name="colorPrimary">#6C63FF</color>
+    <color name="colorPrimaryVariant">#4A42D4</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorSurface">#1A1D27</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorBackground">#0F1117</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnError">#000000</color>
+</resources>
